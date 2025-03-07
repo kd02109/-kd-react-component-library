@@ -8,9 +8,10 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "postinstall": "npx mrm lint-staged",
-    "prepare": "husky",
+    "prepare": "husky && husky install",
     "app": "pnpm -F @kd-monorepo/application",
-    "components": "pnpm -F @kd-monorepo/components"
+    "components": "pnpm -F @kd-monorepo/components",
+    "docs": "pnpm -F @kd-monorepo/docs"
   },
   "lint-staged": {
     "**/*.{js,ts,tsx}": [
