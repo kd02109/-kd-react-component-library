@@ -1,0 +1,2 @@
+npx tsc -p tsconfig.base.json --noEmit
+npx eslint --cache --fix
