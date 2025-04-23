@@ -29,6 +29,7 @@ export default {
           declarationDir: './dist',
         },
       },
+      exclude: ['**/*.stories.tsx'],
       clean: true,
     }),
     json(),
