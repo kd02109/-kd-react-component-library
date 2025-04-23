@@ -1,3 +1,8 @@
 npx tsc -p tsconfig.base.json --noEmit
 npx eslint --cache --fix
 npx lint-staged
+npx lint-staged
+npx lint-staged
+npx lint-staged
+npx lint-staged
+npx lint-staged
