@@ -2,7 +2,8 @@
   "name": "@kd-monorepo/components",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/bundle.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
